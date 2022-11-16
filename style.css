@@ -1,0 +1,119 @@
+body {
+  background-color: tomato;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.btn__game-start {
+  background-color: tomato;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn__start {
+  background-color: tomato;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn__take-card {
+  background-color: tomato;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn__finish-game {
+  background-color: tomato;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn__start:hover {
+  background-color: red;
+  box-shadow: 0 0 10px #000;
+  transition: all 0.3s;
+}
+
+.container {
+  width: 60vw;
+  height: 80vh;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+
+.comp__area {
+  margin-bottom: 20px;
+}
+
+.player__area {
+  margin-bottom: 20px;
+}
+
+.player__card-list,
+.comp__card-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.player__card {
+  margin-right: 5px;
+  padding: 50px 10px;
+  text-transform: uppercase;
+  background-color: tomato;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.comp__card {
+  margin-right: 5px;
+  padding: 50px 10px;
+  text-transform: uppercase;
+  background-color: grey;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.player__card:hover {
+  background-color: red;
+  box-shadow: 0 0 10px #000;
+  transition: all 0.3s;
+}
+
+.fake__comp-card {
+  margin-right: 5px;
+  padding: 50px 20px;
+  text-transform: uppercase;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.fake__comp-card:hover {
+  background-color: grey;
+  transition: all 0.3s;
+}

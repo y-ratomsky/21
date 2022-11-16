@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize_reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start__area">
+        <button class="btn__start">Раздаем?</button>
+      </div>
+      <div class="game__area hidden">
+        <div class="header">
+          <h1>21 / Очко</h1>
+        </div>
+        <div class="comp__area">
+          <p>Карты противника:</p>
+          <ul class="comp__card-list"></ul>
+        </div>
+        <div class="player__area">
+          <div class="player__cards">
+            <p>Ваши карты:</p>
+            <ul class="player__card-list"></ul>
+          </div>
+        </div>
+        <div class="btns__area">
+          <button class="btn__game-start">Поехали</button>
+          <button class="btn__take-card hidden">Еще карту</button>
+          <button class="btn__finish-game hidden">Вскрываемся</button>
+        </div>
+        <div class="counts">
+          <div class="comp__count"></div>
+          <div class="player__count"></div>
+        </div>
+        <div class="result__area">
+          <p class="result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
